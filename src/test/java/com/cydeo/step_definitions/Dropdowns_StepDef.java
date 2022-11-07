@@ -25,7 +25,7 @@ public class Dropdowns_StepDef {
     public void user_should_see_below_info_in_month_dropdown(List<String>  expectedMonths) {
 
         // This utility method will return us List of String of given dropDown webElement
-        List<String> actualOptionsAsString = BrowserUtils.dropDownOptionsAsString(dropDownsPage.monthDropDown);
+        List<String> actualOptionsAsString = BrowserUtils.dropdownOptionsAsString(dropDownsPage.monthDropDown);
 
 
         // Assert will check the size of the list first, if it is watching it will check/verify content 1 by 1
